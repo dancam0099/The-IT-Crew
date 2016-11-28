@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.2.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2016.2.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW"
+CMAKE_SOURCE_DIR = C:\Users\Daniel\Documents\The-IT-Crew
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/THE_IT_CREW.dir/depend.make
@@ -56,43 +56,43 @@ include CMakeFiles/THE_IT_CREW.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/THE_IT_CREW.dir/flags.make
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.obj: CMakeFiles/THE_IT_CREW.dir/flags.make
-CMakeFiles/THE_IT_CREW.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/THE_IT_CREW.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\THE_IT_CREW.dir\main.cpp.obj -c "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\main.cpp"
+CMakeFiles/THE_IT_CREW.dir/main.c.obj: CMakeFiles/THE_IT_CREW.dir/flags.make
+CMakeFiles/THE_IT_CREW.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/THE_IT_CREW.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\THE_IT_CREW.dir\main.c.obj   -c C:\Users\Daniel\Documents\The-IT-Crew\main.c
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/THE_IT_CREW.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\main.cpp" > CMakeFiles\THE_IT_CREW.dir\main.cpp.i
+CMakeFiles/THE_IT_CREW.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/THE_IT_CREW.dir/main.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Daniel\Documents\The-IT-Crew\main.c > CMakeFiles\THE_IT_CREW.dir\main.c.i
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/THE_IT_CREW.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\main.cpp" -o CMakeFiles\THE_IT_CREW.dir\main.cpp.s
+CMakeFiles/THE_IT_CREW.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/THE_IT_CREW.dir/main.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-6~1.0-P\mingw32\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Daniel\Documents\The-IT-Crew\main.c -o CMakeFiles\THE_IT_CREW.dir\main.c.s
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.requires:
+CMakeFiles/THE_IT_CREW.dir/main.c.obj.requires:
 
-.PHONY : CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.requires
+.PHONY : CMakeFiles/THE_IT_CREW.dir/main.c.obj.requires
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.provides: CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.provides
+CMakeFiles/THE_IT_CREW.dir/main.c.obj.provides: CMakeFiles/THE_IT_CREW.dir/main.c.obj.requires
+	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/main.c.obj.provides.build
+.PHONY : CMakeFiles/THE_IT_CREW.dir/main.c.obj.provides
 
-CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.provides.build: CMakeFiles/THE_IT_CREW.dir/main.cpp.obj
+CMakeFiles/THE_IT_CREW.dir/main.c.obj.provides.build: CMakeFiles/THE_IT_CREW.dir/main.c.obj
 
 
 # Object files for target THE_IT_CREW
 THE_IT_CREW_OBJECTS = \
-"CMakeFiles/THE_IT_CREW.dir/main.cpp.obj"
+"CMakeFiles/THE_IT_CREW.dir/main.c.obj"
 
 # External object files for target THE_IT_CREW
 THE_IT_CREW_EXTERNAL_OBJECTS =
 
-THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/main.cpp.obj
+THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/main.c.obj
 THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/build.make
 THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/linklibs.rsp
 THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/objects1.rsp
 THE_IT_CREW.exe: CMakeFiles/THE_IT_CREW.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable THE_IT_CREW.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable THE_IT_CREW.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\THE_IT_CREW.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +100,7 @@ CMakeFiles/THE_IT_CREW.dir/build: THE_IT_CREW.exe
 
 .PHONY : CMakeFiles/THE_IT_CREW.dir/build
 
-CMakeFiles/THE_IT_CREW.dir/requires: CMakeFiles/THE_IT_CREW.dir/main.cpp.obj.requires
+CMakeFiles/THE_IT_CREW.dir/requires: CMakeFiles/THE_IT_CREW.dir/main.c.obj.requires
 
 .PHONY : CMakeFiles/THE_IT_CREW.dir/requires
 
@@ -109,6 +109,6 @@ CMakeFiles/THE_IT_CREW.dir/clean:
 .PHONY : CMakeFiles/THE_IT_CREW.dir/clean
 
 CMakeFiles/THE_IT_CREW.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW" "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW" "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug" "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug" "C:\Users\darre\OneDrive\UNI\Collaborative Practical Project\Assignment 3\THE IT CREW\cmake-build-debug\CMakeFiles\THE_IT_CREW.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Daniel\Documents\The-IT-Crew C:\Users\Daniel\Documents\The-IT-Crew C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug C:\Users\Daniel\Documents\The-IT-Crew\cmake-build-debug\CMakeFiles\THE_IT_CREW.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/THE_IT_CREW.dir/depend
 
