@@ -1,0 +1,3 @@
+C:/Users/darre/OneDrive/UNI/Collaborative Practical Project/Assignment 3/THE IT CREW/cmake-build-debug/CMakeFiles/THE_IT_CREW.dir
+C:/Users/darre/OneDrive/UNI/Collaborative Practical Project/Assignment 3/THE IT CREW/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/darre/OneDrive/UNI/Collaborative Practical Project/Assignment 3/THE IT CREW/cmake-build-debug/CMakeFiles/rebuild_cache.dir
