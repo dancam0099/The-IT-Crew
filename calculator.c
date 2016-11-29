@@ -2,8 +2,6 @@
 // Created by darre on 26/11/2016.
 //
 #include <stdio.h>
-int addition(int num1, int num2);
-int subtracion (int num1);
 char get_first(void);
 
 int main (void)
@@ -192,6 +190,7 @@ int main (void)
                 break;
 
         }
+        while(getchar() != '\n');
     }while (ch != 'q');
     return 0;
 }
