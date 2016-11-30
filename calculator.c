@@ -28,6 +28,7 @@ int main (void)
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
                 }
                 printf("%.2f + %.2f = %.2f", num1, num2, num1 + num2);
+                while (getchar() != '\n');
                 break;
             case 's':
                 printf("\nEnter first number: ");
@@ -43,10 +44,8 @@ int main (void)
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
                 }
                 printf("%.2f - %.2f = %.2f", num1, num2, num1 - num2);
+                while (getchar() != '\n');
                 break;
-
-
-
 
             case 'm':
                 printf("\nEnter first number: ");
@@ -62,9 +61,8 @@ int main (void)
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
                 }
                 printf("%.2f * %.2f = %.2f", num1, num2, num1 * num2);
+                while (getchar() != '\n');
                 break;
-
-
             case 'd':
 
                 printf("\nEnter first number: ");
@@ -75,21 +73,19 @@ int main (void)
                 }
 
                 printf("\nEnter second number: ");
-                while (scanf("%f", &num2) != 1 && num2 == 0)
+                while ((scanf("%f", &num2) != 1) && num2 == 0)
                 {
                     while (getchar() != '\n');
                     printf("\nPlease enter a number other than 0, such as 2.5, -1.78E8, or 3: ");
                 }
                 printf("%.2f / %.2f = %.2f", num1, num2, num1/num2);
+                while (getchar() != '\n');
                 break;
             case 'q':
                 break;
             default:
                 printf("\nPlease enter 'a', 's', 'm', 'd' or 'q' to quit :\n");
-                break;
-
         }
-        while(getchar() != '\n');
     }while (ch != 'q');
     return 0;
 }
