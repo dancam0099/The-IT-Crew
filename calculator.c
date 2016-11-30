@@ -80,7 +80,6 @@ int main (void)
                     while (getchar() != '\n');
                     printf("\nPlease enter a number other than 0, such as 2.5, -1.78E8, or 3: ");
                 }
-                }
                 printf("%.2f / %.2f = %.2f", num1, num2, num1/num2);
                 break;
             case 'q':
