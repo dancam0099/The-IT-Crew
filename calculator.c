@@ -36,7 +36,7 @@ int main (void)
                     while (getchar() != '\n');
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
                 }
-                printf("\nEnter second number: ")
+                printf("\nEnter second number: ");
                 while (scanf("%f", &num2) != 1)
                 {
                     while (getchar() != '\n');
