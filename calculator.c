@@ -30,60 +30,24 @@ int main (void)
                 printf("%.2f + %.2f = %.2f", num1, num2, num1 + num2);
                 break;
             case 's':
-
                 printf("\nEnter first number: ");
-                if (scanf("%f", &num1) == 1)
+                while (scanf("%f", &num1) != 1)
                 {
-
                     while (getchar() != '\n');
-                }
-                else
-                {
-                    printf("\n%.2f is not a number", num1);
-                    while (getchar() != '\n');
-                }
-
-                {
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
-                    if (scanf("%f", &num1) == 1)
-                    {
-
-                        while (getchar() != '\n');
-                    }
-                    else
-                    {
-                        printf("\n%.2f is not a number", num1);
-                        while (getchar() != '\n');
-                    }
                 }
-
                 printf("\nEnter second number: ");
-                if (scanf("%f", &num2) == 1)
+                while (scanf("%f", &num2) != 1)
                 {
-
                     while (getchar() != '\n');
-                }
-                else
-                {
-                    printf("\n%.2f is not a number", num2);
-                    while (getchar() != '\n');
-                }
-
-                {
                     printf("\nPlease enter a number, such as 2.5, -1.78E8, or 3: ");
-                    if (scanf("%f", &num2) == 1)
-                    {
-
-                        while (getchar() != '\n');
-                    }
-                    else
-                    {
-                        printf("\n%.2f is not a number", num2);
-                        while (getchar() != '\n');
-                    }
                 }
-                printf("%.2f - %.2f = %.2f", num1, num2, num1 - num2);
+                printf("%.2f - %.2f = %.2f", num1, num2, num1 + num2);
                 break;
+
+
+
+
             case 'm':
                 printf("\nEnter first number: ");
                 if (scanf("%f", &num1) == 1)
