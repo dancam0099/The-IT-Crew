@@ -33,7 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72075b67-f206-4f31-85f5-6379f7c861ea" name="Default" comment="Multiplication Added-Daniel">
+    <list default="true" id="72075b67-f206-4f31-85f5-6379f7c861ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator.c" afterPath="$PROJECT_DIR$/calculator.c" />
     </list>
@@ -66,8 +66,8 @@
       <file leaf-file-name="calculator.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="65" column="98" lean-forward="false" selection-start-line="65" selection-start-column="98" selection-end-line="65" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -93,9 +93,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
@@ -334,7 +333,7 @@
       <workItem from="1480431025843" duration="262000" />
       <workItem from="1480431384273" duration="864000" />
       <workItem from="1480498573189" duration="784000" />
-      <workItem from="1480499564727" duration="126000" />
+      <workItem from="1480499564727" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Boolean Removed-Daniel">
       <created>1480431136982</created>
@@ -371,17 +370,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480499287298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Multiplication Added-Daniel">
+      <created>1480499700577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480499700577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3383000" />
+    <option name="totallyTimeSpent" value="3940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1042" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33368757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33547008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.4984733" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33499378" sideWeight="0.84694654" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73723537" sideWeight="0.47328246" order="12" side_tool="false" content_ui="tabs" />
@@ -542,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="65" column="98" lean-forward="false" selection-start-line="65" selection-start-column="98" selection-end-line="65" selection-end-column="98" />
           <folding />
         </state>
       </provider>
