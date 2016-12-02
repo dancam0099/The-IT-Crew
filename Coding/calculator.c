@@ -73,7 +73,7 @@ int main (void)
                 }
 
                 printf("\nEnter second number: ");
-                while ((scanf("%f", &num2) != 1) && num2 == 0)
+                while ((scanf("%f", &num2) != 1) || (num2 == 0))
                 {
                     while (getchar() != '\n');
                     printf("\nPlease enter a number other than 0, such as 2.5, -1.78E8, or 3: ");

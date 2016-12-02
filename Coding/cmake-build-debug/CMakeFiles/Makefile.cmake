@@ -95,7 +95,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files (x86)/JetBrains/CLion 2016.2.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.2.2/bin/cmake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.2.2/bin/cmake/share/cmake-3.6/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
+  "../../CMakeLists.txt"
   "CMakeFiles/3.6.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.6.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.6.2/CMakeRCCompiler.cmake"

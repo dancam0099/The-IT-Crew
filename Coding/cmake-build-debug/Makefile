@@ -50,7 +50,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\Coding\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\cmake-build-debug\CMakeFiles C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\Coding\cmake-build-debug\CMakeFiles C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\Coding\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\darre\Documents\GitHub\GitHub\The-IT-Crew\Coding\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ THE_IT_CREW/fast:
 	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/build
 .PHONY : THE_IT_CREW/fast
 
-calculator.obj: calculator.c.obj
+Coding/calculator.obj: Coding/calculator.c.obj
 
-.PHONY : calculator.obj
+.PHONY : Coding/calculator.obj
 
 # target to build an object file
-calculator.c.obj:
-	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/calculator.c.obj
-.PHONY : calculator.c.obj
+Coding/calculator.c.obj:
+	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/Coding/calculator.c.obj
+.PHONY : Coding/calculator.c.obj
 
-calculator.i: calculator.c.i
+Coding/calculator.i: Coding/calculator.c.i
 
-.PHONY : calculator.i
+.PHONY : Coding/calculator.i
 
 # target to preprocess a source file
-calculator.c.i:
-	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/calculator.c.i
-.PHONY : calculator.c.i
+Coding/calculator.c.i:
+	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/Coding/calculator.c.i
+.PHONY : Coding/calculator.c.i
 
-calculator.s: calculator.c.s
+Coding/calculator.s: Coding/calculator.c.s
 
-.PHONY : calculator.s
+.PHONY : Coding/calculator.s
 
 # target to generate assembly for a file
-calculator.c.s:
-	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/calculator.c.s
-.PHONY : calculator.c.s
+Coding/calculator.c.s:
+	$(MAKE) -f CMakeFiles\THE_IT_CREW.dir\build.make CMakeFiles/THE_IT_CREW.dir/Coding/calculator.c.s
+.PHONY : Coding/calculator.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... THE_IT_CREW
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... calculator.obj
-	@echo ... calculator.i
-	@echo ... calculator.s
+	@echo ... Coding/calculator.obj
+	@echo ... Coding/calculator.i
+	@echo ... Coding/calculator.s
 .PHONY : help
 
 

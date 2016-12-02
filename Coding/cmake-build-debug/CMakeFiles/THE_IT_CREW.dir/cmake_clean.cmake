@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/THE_IT_CREW.dir/calculator.c.obj"
+  "CMakeFiles/THE_IT_CREW.dir/Coding/calculator.c.obj"
   "THE_IT_CREW.pdb"
   "THE_IT_CREW.exe"
   "THE_IT_CREW.exe.manifest"
